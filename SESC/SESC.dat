@@ -1,0 +1,13 @@
+// FILE DATA
+ 
+ // Ket noi den cac bang excel
+ SheetConnection my_sheet("dataSESC.xlsx");
+ 
+ //Lay du lieu tu cac bang
+Warehouses from SheetRead(my_sheet,"warehouses");
+Customers from SheetRead(my_sheet,"customers");
+Demand from SheetRead(my_sheet,"demand");
+Distance from SheetRead(my_sheet,"distance");
+FixedCost from SheetRead(my_sheet,"Fixcost");
+Capacity from SheetRead(my_sheet,"capacity");
+
